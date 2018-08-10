@@ -1,0 +1,14 @@
+div{
+	float:left;/* For displaying divs in a columnar fashion */
+	background-color:green;
+	width:33%;
+	height:500px;
+	margin:10px; /*Outer space as 10px */
+	padding:10px; /* Inner space as 10px */
+	text-align:center; /* To align the div content to center */
+}
+/*Setting Header as Flex Layout with dimensions 100% X 100%. */
+header{
+	display:flex;
+	flex-wrap:nowrap;
+}
